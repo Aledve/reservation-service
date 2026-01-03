@@ -6,11 +6,11 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECS_CLUSTER: crm-cluster
-  ECS_SERVICE: task-service
-  ECS_TASK_DEFINITION: task-task
-  CONTAINER_NAME: task-service
-  DOCKER_IMAGE: aledve/task-service
+  ECS_CLUSTER: smart-parking-cluster
+  ECS_SERVICE: reservation-service
+  ECS_TASK_DEFINITION: reservation-task
+  CONTAINER_NAME: reservation-service
+  DOCKER_IMAGE: aledve/reservation-service
   DOCKER_TAG: latest
 
 jobs:
