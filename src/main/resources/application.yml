@@ -3,7 +3,7 @@ server:
   port: 10071
 spring:
   application:
-    name: task-service
+    name: reservation-service
   neo4j:
     uri: ${NEO4J_URI}
     authentication:
