@@ -7,6 +7,6 @@ RUN gradle bootJar
 
 # Stage 2: Run
 FROM eclipse-temurin:21-jre
-COPY --from=build /app/*.jar /app/task-service.jar
+COPY --from=build /app/*.jar /app/reservation-service.jar
 WORKDIR /app
-CMD ["java", "-jar", "task-service.jar"]
+CMD ["java", "-jar", "reservation-service.jar"]
